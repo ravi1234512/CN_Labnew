@@ -46,3 +46,67 @@ public class RedCongestionControl {
         return minProbability + slope * (currentQueueLength - threshold);
     }
 }
+
+OUTPUT:-
+Enter the maximum number of packets:
+50 
+Enter the queue size:
+10
+Enter the maximum probability:
+0.6
+Enter the minimum probability:
+0.4
+Enter the threshold value:
+5
+Packet accepted 1
+Packet accepted 2
+Packet accepted 3
+Packet accepted 4
+Packet accepted 5
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 9
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 13
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 17
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 19
+Packet accepted 20
+Packet accepted 21
+Packet accepted 22
+Packet accepted 23
+Packet accepted 24
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 27
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 29
+Packet dropped (CONGESTION AVOIDANCE)
+Packet accepted 31
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+Packet dropped (CONGESTION AVOIDANCE)
+
+*/
