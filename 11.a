@@ -54,3 +54,9 @@ $ns at 0.0 "Draw $tcp1 $ng1"
 $ns at 0.0 "Draw $tcp2 $ng2"
 $ns at 10.0 "End"
 $ns run
+
+output:-
+window (1056 X 594)
+498 points read.
+GUI was forced to exit by window_manager...
+exiting Xgraph.
