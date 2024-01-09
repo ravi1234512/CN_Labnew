@@ -75,3 +75,9 @@ $ns at 1.6 "$p1 send"
 $ns at 1.8 "Finish"
 #Run the Simulation
 $ns run
+
+#output
+#node 0 received ping answer from 5 with round trip time 151.2 ms
+#node 0 received ping answer from 5 with round trip time 301.4 ms
+#node 5 received ping answer from 0 with round trip time 155.4 ms
+#The number of ping packets dropped are 3
