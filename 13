@@ -78,3 +78,10 @@ END{
 Throughput = Num_of_pkts * 8 / $2 /1000000;
 printf("\n\n\tThroughput = %fbpms\n\n\n",Throughput);
 }
+
+output:-
+Number_nodes is set 6
+Initialize The list x ListHead
+Channel.cc: send UP_Calc Higher
+Sorting lists Done!
+Number of packets dropped is:17708
